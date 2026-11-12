@@ -48,7 +48,7 @@ function draw(page, state, model, bridge, bridgeModel, focus, canvas) {
         text('0 - 12  |  0.5 steps  |  Apply to confirm', 575, 350, 23, c.dim);
     } else if (page === 2) {
         text('EXHAUST VALVES', 32, 112, 28);
-        
+
         ['OPEN', 'CLOSED', 'AUTO'].forEach((mode, i) => {
             const x = 32 + i * 520; card(x, 143, 496, 245, focus === 'BM3_VALVE_' + mode);
             const accepted = state.ready && state.valveAcceptedMode === mode.toLowerCase();
