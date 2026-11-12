@@ -1,40 +1,80 @@
 # MGU Bm3 Live Adjustments for IDrive 8
 
-Map switching, burble adjustments and vehicle data on BMW iDrive 8 with supported bootmod3 CustomROM software.
+Control your bootmod3 map and burble settings directly from iDrive, and keep vehicle data on the same screen. The app installs through MGU Store and works with supported BM3 CustomROM profiles.
 
-![BM3 Maps](docs/images/bm3-maps.png)
+![Map switching on iDrive 8](docs/images/bm3-maps.png)
 
-## Install through MGU Store
+## Features
 
-1. Add `danny67999/mgu-bm3-live-adjustments-idrive-8` in MGU Store's sources.
-2. Select **Releases** (or the `main` branch) and install **MGU Bm3 Live Adjustments for IDrive 8**.
-3. Install the dependencies the Store requests, then restart the head unit if prompted.
-4. Open MGU Bm3 Live Adjustments for IDrive 8 and choose **Read** to identify the ROM and read the active map.
+### Map switching
 
-This repository is public; GitHub sign-in is not required to download it. The GitHub `catalog` release lists the SDK-free source package. The head unit links it against its own installed BMW SDK; no BMW SDK or firmware is distributed here.
+Choose between **Map 1–4** from four large map cards. Press **Read** to identify your CustomROM and read the map currently selected in the DME.
 
-Requires iDrive 8 with MGU Store, `mgu-deploy` 0.6.9 or newer and `mgu-render` 0.6.12 or newer. This does not install or unlock CustomROM.
+The active-map indicator follows the vehicle's reported selection, including the map retained between starts. After a switch, the app reads the selection back from the DME to update the display.
 
-## Features and compatibility
+### Burble adjustments
 
-- Map 1–4 selection with current-map readback.
-- Burble aggression selection and explicit Apply/Off actions. Off zeros the timing table; it does not restore the flashed tune's original settings.
-- Vehicle data from channels advertised by the DME.
-- Native iDrive rotary navigation, graphical dashboard and native list fallback.
+Read the current burble settings, choose an aggression level from **0.0 to 12.0 in 0.5 steps**, then press **Apply**. Selecting a value lets you review it before applying the change.
 
-ROM detection selects one of 137 bundled community definitions. Unknown ROMs remain unsupported. The tests cover 269 synthetic ROM/marker scenarios; this does not establish compatibility with every BM3 vehicle. Earlier vehicle testing confirmed map and burble controls on the owner's G87; this community package still needs an independent fresh-install vehicle test.
+The burble page separates the last-read setting from your selected value and recognizes custom timing tables. **Off** zeros the burble timing table; use it when you want to disable burbles rather than restore a tune preset.
 
-Exhaust-valve adapters are unconfigured in this release. The Wi-Fi page can control an already installed and configured compatible bridge; automatic bridge installation and first-run network setup are not included. Ethanol display is omitted.
+![Burble controls](docs/images/bm3-burbles.png)
+
+### Vehicle data
+
+Use **Read** for a sample or **Live** for recurring updates while the data page is open. The dashboard displays the channels supplied by your vehicle:
+
+- Boost pressure
+- Engine RPM and vehicle speed
+- Oil, coolant and intake-air temperatures
+- Control-module voltage
+- Fuel level
+
+Each tile includes its unit and sample status. Previous readings are marked as last samples when they become stale. Live polling stops when you leave the data page, and pauses when another diagnostic action needs the connection.
+
+![Vehicle data dashboard](docs/images/bm3-data.png)
+
+### iDrive controls
+
+Navigate with the **touchscreen or rotary controller**. Focus highlighting shows which action the wheel will select, and the **Pages** button cycles through the dashboard screens. **List** opens the native BMW list interface for the same controls.
+
+### Wi-Fi bridge controls
+
+For vehicles with a compatible Wi-Fi bridge installed and configured, the bridge page provides **Start**, **Stop** and **Refresh**, plus the number of active diagnostic connections. It coordinates diagnostic access between Live Adjust and a phone connected through the bridge.
+
+When using the official BM3 phone app through BMW Wi-Fi, keep the phone's Router field blank in its manual IPv4 settings to retain cellular internet access.
+
+## Requirements
+
+- BMW iDrive 8 with MGU Store installed.
+- A BM3 tune with CustomROM and a supported ROM profile.
+- `mgu-deploy` 0.6.9 or newer and `mgu-render` 0.6.12 or newer. MGU Store handles these dependencies during installation.
+
+The app identifies the ROM automatically when you press **Read**, so you do not need to choose an engine profile or enter the car's IP address for map and burble controls. Compatibility is determined by the detected ROM, rather than the vehicle model alone.
+
+## Install
+
+1. Open **MGU Store → Settings → Add source**.
+2. Enter `danny67999/mgu-bm3-live-adjustments-idrive-8`.
+3. Choose **Releases** and install **MGU Bm3 Live Adjustments for IDrive 8**.
+4. Complete any dependency updates and restart iDrive if the Store requests it.
+5. Open the app and press **Read** to identify BM3 and load the current map.
+
+The repository is public, so downloading it does not require a GitHub account or token. Store users following the `main` branch can also install the app from its source tree.
 
 ## Screenshots
 
-[Maps](docs/images/bm3-maps.png) · [Burbles](docs/images/bm3-burbles.png) · [Valves](docs/images/bm3-valves.png) · [Wi-Fi](docs/images/bm3-wifi.png) · [Data](docs/images/bm3-data.png)
+[Maps](docs/images/bm3-maps.png) · [Burbles](docs/images/bm3-burbles.png) · [Vehicle data](docs/images/bm3-data.png) · [Wi-Fi bridge](docs/images/bm3-wifi.png)
 
-These are emulator captures: the actual BMW HMI framebuffer and native mgu-render output composed in the emulator's app area. The disconnected diagnostic state is real; no simulated connected status or vehicle readings were added. BMW interface artwork visible in the screenshots is separate from the app source.
+Screenshots were captured in the iDrive 8 emulator.
 
-## Build
+## Support
 
-Node.js 20 or newer and Python 3 on the development computer:
+For a connection problem or an unrecognized ROM, [open an issue](https://github.com/danny67999/mgu-bm3-live-adjustments-idrive-8/issues) with your vehicle model, model year, ROM identifier, app version and the message shown on screen. A screenshot helps reproduce display or navigation problems.
+
+## Development
+
+With Node.js 20 or newer and Python 3:
 
 ```sh
 npm test
@@ -42,8 +82,8 @@ npm run build
 npm run audit
 ```
 
-`dist/bm3_live_id8@0.1.1.tgz` is the public source artifact. `dist/catalog.json` is its generated catalog. Run `python3 tools/build_store_tree.py` after changes to refresh the SDK-free branch installation tree. Compiled SDK-linked packages, BMW libraries, emulator images and vehicle captures must stay private.
+See [development and release packaging](docs/DEVELOPMENT.md) for the Store build process.
 
 ## License
 
-GPL-3.0-or-later with retained MIT and Ubuntu font notices. See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This project is independent of BMW and bootmod3.
+GPL-3.0-or-later. Third-party licenses and credits are in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
