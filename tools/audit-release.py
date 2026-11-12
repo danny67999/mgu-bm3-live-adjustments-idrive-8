@@ -2,7 +2,7 @@
 from pathlib import Path, PurePosixPath
 import hashlib,json,tarfile,sys
 root=Path(__file__).resolve().parents[1]
-p=Path(sys.argv[1]) if len(sys.argv)>1 else root/'dist/bm3_live_id8@0.1.0.src.tgz'
+p=Path(sys.argv[1]) if len(sys.argv)>1 else root/'dist/bm3_live_id8@0.1.0.tgz'
 with tarfile.open(p) as archive:
     files=[m for m in archive.getmembers() if m.isfile()]
     names=[m.name for m in files]

@@ -3,7 +3,7 @@ from pathlib import Path,PurePosixPath
 import tarfile,shutil,subprocess,json
 R=Path(__file__).resolve().parents[1]
 subprocess.run(['python3',str(R/'tools/audit-release.py')],check=True)
-p=R/'dist/bm3_live_id8@0.1.0.src.tgz';d=R/'store/bm3_live_id8'
+p=R/'dist/bm3_live_id8@0.1.0.tgz';d=R/'store/bm3_live_id8'
 if d.exists():shutil.rmtree(d)
 d.mkdir(parents=True)
 with tarfile.open(p) as t:

@@ -42,7 +42,7 @@ npm run build
 npm run audit
 ```
 
-`dist/bm3_live_id8@0.1.0.src.tgz` is the public source artifact. `dist/catalog.json` is its generated catalog. Run `python3 tools/build_store_tree.py` after changes to refresh the SDK-free branch installation tree. Compiled SDK-linked packages, BMW libraries, emulator images and vehicle captures must stay private.
+`dist/bm3_live_id8@0.1.0.tgz` is the public source artifact. `dist/catalog.json` is its generated catalog. Run `python3 tools/build_store_tree.py` after changes to refresh the SDK-free branch installation tree. Compiled SDK-linked packages, BMW libraries, emulator images and vehicle captures must stay private.
 
 ## License
 

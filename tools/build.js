@@ -156,7 +156,7 @@ function build() {
     json(path.join(staged, 'mgu-app.json'), { schema: 1, id: pkg.name, version: pkg.version, tree,
         modules, sdk: ['oap-sdk/src/core/OnlineApp.js', 'oap-sdk/src/logging/logging', 'oap-sdk/src/someip/someipBuilders'], mguHmi: ['ID8'] });
     const sourceManifest = readManifest(staged);
-    const artifact = path.join(output, pkg.name + '@' + pkg.version + '.src.tgz');
+    const artifact = path.join(output, pkg.name + '@' + pkg.version + '.tgz');
     const members = packSource(staged, artifact);
     const bytes = fs.readFileSync(artifact);
     const entry = { id: pkg.name, kind: 'app', title: release.title, description: pkg.description,

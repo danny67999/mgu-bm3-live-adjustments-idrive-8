@@ -168,3 +168,5 @@ console.log('Package verified: reproducible source archive, unit-link manifest, 
 assert.deepStrictEqual(catalog.components[0].requires, { 'mgu-deploy': '0.6.9', 'mgu-render': '0.6.12' });
 
 assert.deepStrictEqual(treeJson('rhmiData/application.json').application.variantGroups[0].brands, ['BMW', 'BMW_M'], 'M-car resource selection must not require emulator overrides');
+
+assert.strictEqual(entry.artifact.name, entry.id + '@' + entry.version + '.tgz', 'Store catalogs require the canonical artifact name even for source builds');
