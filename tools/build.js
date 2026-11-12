@@ -94,7 +94,7 @@ function rhmi(staged) {
     });
         xml.push('    </layoutGroup>', '  </container>');
     }
-    state(1, 'ST_BM3_MAIN', 10, 'BM3_TITLE', 'BM3 Live Adjust', controls);
+    state(1, 'ST_BM3_MAIN', 10, 'BM3_TITLE', 'MGU Bm3 Live Adjustments for IDrive 8', controls);
     state(2, 'ST_BM3_BRIDGE', 110, 'BM3_BRIDGE_TITLE', 'Wi-Fi Bridge', bridgeControls);
     state(3, 'ST_BM3_DATA', 130, 'BM3_DATA_TITLE', 'Vehicle Data', dataControls);
     const pages = require('../src/dashboard').pages;

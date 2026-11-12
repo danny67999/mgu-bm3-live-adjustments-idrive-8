@@ -36,7 +36,7 @@ const inTree = (name) => source.tree + '/' + name;
 const treeJson = (name) => json(inTree(name));
 const pkg = treeJson('package.json');
 assert.strictEqual(pkg.name, 'bm3_live_id8');
-assert.strictEqual(pkg.version, '0.1.0');
+assert.strictEqual(pkg.version, '0.1.1');
 assert.strictEqual(pkg.mguLocalOnly, true);
 assert.deepStrictEqual(pkg.mguHmi, ['ID8']);
 assert.strictEqual(source.id, pkg.name);

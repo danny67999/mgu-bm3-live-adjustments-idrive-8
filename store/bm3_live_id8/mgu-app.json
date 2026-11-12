@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "id": "bm3_live_id8",
-  "version": "0.1.0",
-  "tree": "bm3_live_id8@0.1.0",
+  "version": "0.1.1",
+  "tree": "bm3_live_id8@0.1.1",
   "modules": [
     "src/entry.js",
     "src/bridge.js",

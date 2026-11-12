@@ -1,6 +1,6 @@
-BM3 Live Adjust 0.1.0
+MGU Bm3 Live Adjustments for IDrive 8 0.1.1
 
-Install via MGU Store by adding danny67999/bm3-idrive8 and choosing Releases. Required renderer/deploy versions are declared in the catalog. This is the first community source release for supported iDrive 8 BM3 CustomROM profiles.
+Install via MGU Store by adding danny67999/mgu-bm3-live-adjustments-idrive-8 and choosing Releases. Required renderer/deploy versions are declared in the catalog. This is the community source release for supported iDrive 8 BM3 CustomROM profiles.
 
 The public artifact contains no BMW SDK or firmware. The car builds it using its installed SDK. Unknown ROMs are rejected. Exhaust-valve adapters remain unset; automatic Wi-Fi bridge setup is not included. Ethanol display is omitted.
 

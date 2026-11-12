@@ -1,6 +1,6 @@
 {
   "name": "bm3_live_id8",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Map switching, burble adjustments and vehicle data for supported BM3 CustomROM vehicles with iDrive 8.",
   "main": "javascript/runner.js",
   "private": true,

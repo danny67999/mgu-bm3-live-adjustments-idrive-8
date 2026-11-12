@@ -1,5 +1,5 @@
 {
-  "title": "BM3 Live Adjust",
+  "title": "MGU Bm3 Live Adjustments for IDrive 8",
   "requires": {
     "mgu-deploy": "0.6.9",
     "mgu-render": "0.6.12"

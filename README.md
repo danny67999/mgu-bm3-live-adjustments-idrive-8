@@ -1,4 +1,4 @@
-# BM3 Live Adjust for iDrive 8
+# MGU Bm3 Live Adjustments for IDrive 8
 
 Map switching, burble adjustments and vehicle data on BMW iDrive 8 with supported bootmod3 CustomROM software.
 
@@ -6,12 +6,12 @@ Map switching, burble adjustments and vehicle data on BMW iDrive 8 with supporte
 
 ## Install through MGU Store
 
-1. Add `danny67999/bm3-idrive8` in MGU Store's sources.
-2. Select **Releases** (or the `main` branch) and install **BM3 Live Adjust**.
+1. Add `danny67999/mgu-bm3-live-adjustments-idrive-8` in MGU Store's sources.
+2. Select **Releases** (or the `main` branch) and install **MGU Bm3 Live Adjustments for IDrive 8**.
 3. Install the dependencies the Store requests, then restart the head unit if prompted.
-4. Open BM3 Live Adjust and choose **Read** to identify the ROM and read the active map.
+4. Open MGU Bm3 Live Adjustments for IDrive 8 and choose **Read** to identify the ROM and read the active map.
 
-For a private repository, first grant MGU Store read access to the repository. The GitHub `catalog` release lists the SDK-free source package. The head unit links it against its own installed BMW SDK; no BMW SDK or firmware is distributed here.
+This repository is public; GitHub sign-in is not required to download it. The GitHub `catalog` release lists the SDK-free source package. The head unit links it against its own installed BMW SDK; no BMW SDK or firmware is distributed here.
 
 Requires iDrive 8 with MGU Store, `mgu-deploy` 0.6.9 or newer and `mgu-render` 0.6.12 or newer. This does not install or unlock CustomROM.
 
@@ -42,7 +42,7 @@ npm run build
 npm run audit
 ```
 
-`dist/bm3_live_id8@0.1.0.tgz` is the public source artifact. `dist/catalog.json` is its generated catalog. Run `python3 tools/build_store_tree.py` after changes to refresh the SDK-free branch installation tree. Compiled SDK-linked packages, BMW libraries, emulator images and vehicle captures must stay private.
+`dist/bm3_live_id8@0.1.1.tgz` is the public source artifact. `dist/catalog.json` is its generated catalog. Run `python3 tools/build_store_tree.py` after changes to refresh the SDK-free branch installation tree. Compiled SDK-linked packages, BMW libraries, emulator images and vehicle captures must stay private.
 
 ## License
 

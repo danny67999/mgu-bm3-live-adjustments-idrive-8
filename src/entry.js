@@ -2,7 +2,7 @@
 // oap_link executes this module as the Browserify entry. require.main is the
 // donor runner, not an app module, so the bootstrap must be explicit here.
 const { trace } = require('./startup_trace');
-trace('entry:bootstrap', '0.1.0');
+trace('entry:bootstrap', '0.1.1');
 try {
     const { Bm3App } = require('./host');
     trace('entry:host-loaded');
