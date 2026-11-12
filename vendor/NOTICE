@@ -1,0 +1,2 @@
+BM3 protocol and ROM address metadata derived from BM3 Live by ezl0l (idrive7-apps PR #29), integrated by cauliflowermossgrape. Source: https://github.com/cauliflowermossgrape/idrive7-apps . Map and burble address metadata, plus a separately gated community valve reference, are included. Their presence is not a vehicle compatibility certification or an official bootmod3 API. See LICENSE.idrive7-apps and docs/VALVES.md.
+Source revision: bd5ce85bf584db51382ace1a4d8ead5ae27fef40.

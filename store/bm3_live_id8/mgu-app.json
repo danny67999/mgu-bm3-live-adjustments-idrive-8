@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "bm3_live_id8",
+  "version": "0.1.0",
+  "tree": "bm3_live_id8@0.1.0",
+  "modules": [
+    "src/entry.js",
+    "src/bridge.js",
+    "src/bridge_view.js",
+    "src/car_data.js",
+    "src/car_data_view.js",
+    "src/controller.js",
+    "src/dashboard.js",
+    "src/dashboard_frame.js",
+    "src/dashboard_host.js",
+    "src/host.js",
+    "src/mgu_render_client.js",
+    "src/pixel_canvas.js",
+    "src/pixel_fonts.js",
+    "src/pixel_i18n.js",
+    "src/sdk_signals.js",
+    "src/startup_trace.js",
+    "src/valves.js",
+    "src/view.js",
+    "src/diag.js",
+    "src/profiles.js"
+  ],
+  "sdk": [
+    "oap-sdk/src/core/OnlineApp.js",
+    "oap-sdk/src/logging/logging",
+    "oap-sdk/src/someip/someipBuilders"
+  ],
+  "mguHmi": [
+    "ID8"
+  ]
+}

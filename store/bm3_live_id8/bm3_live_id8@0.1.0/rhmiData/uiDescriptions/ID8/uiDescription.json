@@ -1,0 +1,2771 @@
+{
+  "schemaVersion": "1.3.0",
+  "containers": {
+    "1": {
+      "type": "state",
+      "name": "ST_BM3_MAIN",
+      "components": {
+        "10": {
+          "type": "title",
+          "name": "BM3_TITLE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 Live Adjust",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "20": {
+          "type": "label",
+          "name": "BM3_STATUS",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "Identify BM3 to read the current map",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "21": {
+          "type": "button",
+          "name": "BM3_IDENTIFY",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Identify BM3",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "22": {
+          "type": "button",
+          "name": "BM3_REFRESH",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Refresh current map",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "23": {
+          "type": "button",
+          "name": "BM3_MAP_1",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Map 1",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "24": {
+          "type": "button",
+          "name": "BM3_MAP_2",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Map 2",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "25": {
+          "type": "button",
+          "name": "BM3_MAP_3",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Map 3",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "26": {
+          "type": "button",
+          "name": "BM3_MAP_4",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Map 4",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "27": {
+          "type": "label",
+          "name": "BM3_BURBLE_STATUS",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "Burbles not read; Off zeros timing rather than restoring the tune",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "28": {
+          "type": "button",
+          "name": "BM3_BURBLE_READ",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Read burble settings",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "29": {
+          "type": "button",
+          "name": "BM3_BURBLE_DOWN",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Select −0.5 aggression",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "30": {
+          "type": "button",
+          "name": "BM3_BURBLE_UP",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Select +0.5 aggression",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "31": {
+          "type": "button",
+          "name": "BM3_BURBLE_APPLY",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Apply selected burble aggression",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "32": {
+          "type": "button",
+          "name": "BM3_BURBLE_OFF",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Burbles Off (zero timing table)",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "33": {
+          "type": "label",
+          "name": "BM3_VALVE_STATUS",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 valves; identify BM3 to begin",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "34": {
+          "type": "button",
+          "name": "BM3_VALVE_OPEN",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "BM3 valves open",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "35": {
+          "type": "button",
+          "name": "BM3_VALVE_CLOSED",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "BM3 valves closed",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "36": {
+          "type": "button",
+          "name": "BM3_VALVE_AUTO",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "BM3 valves auto",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "37": {
+          "type": "button",
+          "name": "BM3_BRIDGE_OPEN",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Wi-Fi Bridge",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "38": {
+          "type": "button",
+          "name": "BM3_DASHBOARD_OPEN",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Graphical dashboard",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "39": {
+          "type": "button",
+          "name": "BM3_DATA_OPEN",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Vehicle Data",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "2": {
+      "type": "state",
+      "name": "ST_BM3_BRIDGE",
+      "components": {
+        "110": {
+          "type": "title",
+          "name": "BM3_BRIDGE_TITLE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "Wi-Fi Bridge",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "120": {
+          "type": "label",
+          "name": "BM3_BRIDGE_STATUS",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "Checking Wi-Fi bridge...",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "121": {
+          "type": "button",
+          "name": "BM3_BRIDGE_REFRESH",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Refresh bridge status",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "122": {
+          "type": "button",
+          "name": "BM3_BRIDGE_START",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Start Wi-Fi bridge",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "123": {
+          "type": "button",
+          "name": "BM3_BRIDGE_STOP",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Stop Wi-Fi bridge",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "124": {
+          "type": "label",
+          "name": "BM3_BRIDGE_DETAIL_STATUS",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "Connect iPhone to the BMW hotspot. Keep Router blank for cellular internet.",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "125": {
+          "type": "button",
+          "name": "BM3_BRIDGE_BACK",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Back to Live Adjust",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "type": "state",
+      "name": "ST_BM3_DATA",
+      "components": {
+        "130": {
+          "type": "title",
+          "name": "BM3_DATA_TITLE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "Vehicle Data",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "140": {
+          "type": "label",
+          "name": "BM3_DATA_STATUS",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "Press Read to check advertised data channels",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "141": {
+          "type": "button",
+          "name": "BM3_DATA_READ",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Read vehicle data",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "142": {
+          "type": "button",
+          "name": "BM3_DATA_LIVE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Start live data",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "143": {
+          "type": "button",
+          "name": "BM3_DATA_STOP",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Stop reading data",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "144": {
+          "type": "label",
+          "name": "BM3_DATA_DETAIL_STATUS",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "Vehicle data not read",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "145": {
+          "type": "button",
+          "name": "BM3_DATA_BACK",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Back to Live Adjust",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "100": {
+      "type": "state",
+      "name": "ST_BM3_DASH_0",
+      "components": {
+        "301": {
+          "type": "button",
+          "name": "DASH_0_0",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Read",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "302": {
+          "type": "button",
+          "name": "DASH_0_1",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Map 1",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "303": {
+          "type": "button",
+          "name": "DASH_0_2",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Map 2",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "304": {
+          "type": "button",
+          "name": "DASH_0_3",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Map 3",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "305": {
+          "type": "button",
+          "name": "DASH_0_4",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Map 4",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "306": {
+          "type": "button",
+          "name": "DASH_0_PAGE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Pages",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "307": {
+          "type": "button",
+          "name": "DASH_0_LIST",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "List",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "310": {
+          "type": "title",
+          "name": "DASH_TITLE_0",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 MAPS",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "311": {
+          "type": "label",
+          "name": "DASH_STATUS_0",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 MAPS | Waiting for status",
+                "type": "Text"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "101": {
+      "type": "state",
+      "name": "ST_BM3_DASH_1",
+      "components": {
+        "321": {
+          "type": "button",
+          "name": "DASH_1_0",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Read",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "322": {
+          "type": "button",
+          "name": "DASH_1_1",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Less",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "323": {
+          "type": "button",
+          "name": "DASH_1_2",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "More",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "324": {
+          "type": "button",
+          "name": "DASH_1_3",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Apply",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "325": {
+          "type": "button",
+          "name": "DASH_1_4",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Off",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "326": {
+          "type": "button",
+          "name": "DASH_1_PAGE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Pages",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "327": {
+          "type": "button",
+          "name": "DASH_1_LIST",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "List",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "330": {
+          "type": "title",
+          "name": "DASH_TITLE_1",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 BURBLES",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "331": {
+          "type": "label",
+          "name": "DASH_STATUS_1",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 BURBLES | Waiting for status",
+                "type": "Text"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "102": {
+      "type": "state",
+      "name": "ST_BM3_DASH_2",
+      "components": {
+        "341": {
+          "type": "button",
+          "name": "DASH_2_0",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Read",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "342": {
+          "type": "button",
+          "name": "DASH_2_1",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Open",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "343": {
+          "type": "button",
+          "name": "DASH_2_2",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Closed",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "344": {
+          "type": "button",
+          "name": "DASH_2_3",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Auto",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "345": {
+          "type": "button",
+          "name": "DASH_2_PAGE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Pages",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "346": {
+          "type": "button",
+          "name": "DASH_2_LIST",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "List",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "350": {
+          "type": "title",
+          "name": "DASH_TITLE_2",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 VALVES",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "351": {
+          "type": "label",
+          "name": "DASH_STATUS_2",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 VALVES | Waiting for status",
+                "type": "Text"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "103": {
+      "type": "state",
+      "name": "ST_BM3_DASH_3",
+      "components": {
+        "361": {
+          "type": "button",
+          "name": "DASH_3_0",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Refresh",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "362": {
+          "type": "button",
+          "name": "DASH_3_1",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Start",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "363": {
+          "type": "button",
+          "name": "DASH_3_2",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Stop",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "364": {
+          "type": "button",
+          "name": "DASH_3_PAGE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Pages",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "365": {
+          "type": "button",
+          "name": "DASH_3_LIST",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "List",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "370": {
+          "type": "title",
+          "name": "DASH_TITLE_3",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 WI-FI BRIDGE",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "371": {
+          "type": "label",
+          "name": "DASH_STATUS_3",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 WI-FI BRIDGE | Waiting for status",
+                "type": "Text"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "104": {
+      "type": "state",
+      "name": "ST_BM3_DASH_4",
+      "components": {
+        "381": {
+          "type": "button",
+          "name": "DASH_4_0",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Read",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "382": {
+          "type": "button",
+          "name": "DASH_4_1",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Live",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "383": {
+          "type": "button",
+          "name": "DASH_4_2",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Stop",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "384": {
+          "type": "button",
+          "name": "DASH_4_PAGE",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "Pages",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "385": {
+          "type": "button",
+          "name": "DASH_4_LIST",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 3,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "PrimaryText": {
+                "value": "List",
+                "type": "Text"
+              },
+              "FrequencyText": {
+                "value": "",
+                "type": "Text"
+              },
+              "FrequencyVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IconVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "ProgressVisible": {
+                "value": false,
+                "type": "Bool"
+              },
+              "IsPlaying": {
+                "value": false,
+                "type": "Bool"
+              }
+            }
+          ]
+        },
+        "390": {
+          "type": "title",
+          "name": "DASH_TITLE_4",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 DATA",
+                "type": "Text"
+              }
+            }
+          ]
+        },
+        "391": {
+          "type": "label",
+          "name": "DASH_STATUS_4",
+          "properties": {
+            "Visible": {
+              "value": 1,
+              "type": "UInt"
+            },
+            "Focusable": {
+              "value": 0,
+              "type": "UInt"
+            }
+          },
+          "rows": [
+            {
+              "Text": {
+                "value": "BM3 DATA | Waiting for status",
+                "type": "Text"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

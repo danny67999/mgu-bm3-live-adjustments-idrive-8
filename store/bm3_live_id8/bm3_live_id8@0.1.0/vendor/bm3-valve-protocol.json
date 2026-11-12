@@ -1,0 +1,23 @@
+{
+  "adapterId": "bm3-flap-60fd-v1",
+  "source": "https://github.com/cauliflowermossgrape/idrive7-apps/blob/bd5ce85bf584db51382ace1a4d8ead5ae27fef40/apps/live_adjustments/bm3_protocol.js",
+  "sourceMethod": "Bm3Protocol.setFlap",
+  "originalSource": "https://github.com/cauliflowermossgrape/idrive7-apps/blob/fc0c7eda5f3792dcab8fd90cba08b2132393bfdf/apps/bm3_live/protocol.js#L85",
+  "sourceDiscussion": "https://github.com/cauliflowermossgrape/idrive7-apps/pull/29",
+  "evidenceLimit": "Community implementation; PR reports an Open failure on another BM3 car. No F4C9L8R02 valve verification or proprietary CustomROM-only mechanism established.",
+  "license": "MIT",
+  "target": "12",
+  "requests": {
+    "open": "2F60FD0314FE",
+    "closed": "2F60FD032328",
+    "auto": "2F60FD00"
+  },
+  "acceptancePrefixes": {
+    "open": "6F60FD03",
+    "closed": "6F60FD03",
+    "auto": "6F60FD00"
+  },
+  "physicalPositionReadback": null,
+  "verifiedProductionVehicles": [],
+  "defaultEnabled": false
+}

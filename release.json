@@ -1,0 +1,10 @@
+{
+  "title": "BM3 Live Adjust",
+  "requires": {
+    "mgu-deploy": "0.6.9",
+    "mgu-render": "0.6.12"
+  },
+  "mguHmi": [
+    "ID8"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "bm3_live_id8",
+  "version": "0.1.0",
+  "description": "Map switching, burble adjustments and vehicle data for supported BM3 CustomROM vehicles with iDrive 8.",
+  "main": "javascript/runner.js",
+  "private": true,
+  "author": "danny67999",
+  "license": "GPL-3.0-or-later",
+  "engines": {
+    "node": ">=8.7.0"
+  },
+  "mguLocalOnly": true,
+  "mguHmi": [
+    "ID8"
+  ],
+  "files": [
+    "javascript",
+    "vendor",
+    "config",
+    "rhmiData",
+    "package.json",
+    "npm-shrinkwrap.json",
+    "permissions.json",
+    "manifest.json",
+    "ui-fonts",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "oapAppSettings": {
+    "maxDiskUsage": 10485760,
+    "cpuLimit": 30,
+    "memoryThresholdKB": 131072,
+    "priority": "PRIO_MEDIUM",
+    "visibility": "FOREGROUND",
+    "latencyClass": "FOREGROUND",
+    "loggingId": "B3G8",
+    "userLoginRequired": false,
+    "backgroundPriority": 150,
+    "someipManifest": "manifest.json"
+  }
+}

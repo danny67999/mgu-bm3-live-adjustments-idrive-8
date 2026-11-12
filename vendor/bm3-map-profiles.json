@@ -1,0 +1,1646 @@
+{
+  "011000": {
+    "rom": "011000",
+    "mapSwActAddr": "D001D006",
+    "burbleActAddr": "D001D099",
+    "wmbaCmd": "3d",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "D001D116",
+        "factor": 2
+      }
+    }
+  },
+  "017000": {
+    "rom": "017000",
+    "mapSwActAddr": "D001D006",
+    "burbleActAddr": "D001D099",
+    "wmbaCmd": "3d",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "D001D116",
+        "factor": 2
+      }
+    }
+  },
+  "020000": {
+    "rom": "020000",
+    "mapSwActAddr": "D0016006",
+    "burbleActAddr": "D0016099",
+    "wmbaCmd": "3d",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "D0016116",
+        "factor": 2
+      }
+    }
+  },
+  "020001": {
+    "rom": "020001",
+    "mapSwActAddr": "D0016006",
+    "burbleActAddr": "D0016099",
+    "wmbaCmd": "3d",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "D0016116",
+        "factor": 2
+      }
+    }
+  },
+  "010000": {
+    "rom": "010000",
+    "mapSwActAddr": "D001A006",
+    "burbleActAddr": "D001A099",
+    "wmbaCmd": "3d",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "D001A116",
+        "factor": 2
+      }
+    }
+  },
+  "F4C900001": {
+    "rom": "F4C900001",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5700": {
+    "rom": "F4C9G5700",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5701": {
+    "rom": "F4C9G5701",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5702": {
+    "rom": "F4C9G5702",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5704": {
+    "rom": "F4C9G5704",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5900": {
+    "rom": "F4C9G5900",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5901": {
+    "rom": "F4C9G5901",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5902": {
+    "rom": "F4C9G5902",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5904": {
+    "rom": "F4C9G5904",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5F00": {
+    "rom": "F4C9G5F00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5F01": {
+    "rom": "F4C9G5F01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5F02": {
+    "rom": "F4C9G5F02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5F04": {
+    "rom": "F4C9G5F04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5H00": {
+    "rom": "F4C9G5H00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5H01": {
+    "rom": "F4C9G5H01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5H02": {
+    "rom": "F4C9G5H02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9G5H04": {
+    "rom": "F4C9G5H04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8A00": {
+    "rom": "F4C9L8A00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8A01": {
+    "rom": "F4C9L8A01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8A02": {
+    "rom": "F4C9L8A02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8A04": {
+    "rom": "F4C9L8A04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8C00": {
+    "rom": "F4C9L8C00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8C01": {
+    "rom": "F4C9L8C01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8C02": {
+    "rom": "F4C9L8C02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8C04": {
+    "rom": "F4C9L8C04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8E00": {
+    "rom": "F4C9L8E00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8E01": {
+    "rom": "F4C9L8E01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8E02": {
+    "rom": "F4C9L8E02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8E04": {
+    "rom": "F4C9L8E04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8G00": {
+    "rom": "F4C9L8G00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8G01": {
+    "rom": "F4C9L8G01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8G02": {
+    "rom": "F4C9L8G02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8G03": {
+    "rom": "F4C9L8G03",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8G04": {
+    "rom": "F4C9L8G04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8G05": {
+    "rom": "F4C9L8G05",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8J00": {
+    "rom": "F4C9L8J00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8J01": {
+    "rom": "F4C9L8J01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8J02": {
+    "rom": "F4C9L8J02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8J04": {
+    "rom": "F4C9L8J04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8N01": {
+    "rom": "F4C9L8N01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8N02": {
+    "rom": "F4C9L8N02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8N04": {
+    "rom": "F4C9L8N04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8R02": {
+    "rom": "F4C9L8R02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8R03": {
+    "rom": "F4C9L8R03",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8R04": {
+    "rom": "F4C9L8R04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8R05": {
+    "rom": "F4C9L8R05",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "F4C9L8Y04": {
+    "rom": "F4C9L8Y04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C920000": {
+    "rom": "R4C920000",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C920001": {
+    "rom": "R4C920001",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C920002": {
+    "rom": "R4C920002",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9A0000": {
+    "rom": "R4C9A0000",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9F4K00": {
+    "rom": "R4C9F4K00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9F4K02": {
+    "rom": "R4C9F4K02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9F4N00": {
+    "rom": "R4C9F4N00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9F4N02": {
+    "rom": "R4C9F4N02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9F4P00": {
+    "rom": "R4C9F4P00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9F4P01": {
+    "rom": "R4C9F4P01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9F4P02": {
+    "rom": "R4C9F4P02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9F4P03": {
+    "rom": "R4C9F4P03",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5K00": {
+    "rom": "R4C9H5K00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5K02": {
+    "rom": "R4C9H5K02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5N00": {
+    "rom": "R4C9H5N00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5N02": {
+    "rom": "R4C9H5N02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5P00": {
+    "rom": "R4C9H5P00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5P01": {
+    "rom": "R4C9H5P01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5P02": {
+    "rom": "R4C9H5P02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5P03": {
+    "rom": "R4C9H5P03",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5S00": {
+    "rom": "R4C9H5S00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5S02": {
+    "rom": "R4C9H5S02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5V00": {
+    "rom": "R4C9H5V00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5V02": {
+    "rom": "R4C9H5V02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H5W02": {
+    "rom": "R4C9H5W02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6K00": {
+    "rom": "R4C9H6K00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6K02": {
+    "rom": "R4C9H6K02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6N00": {
+    "rom": "R4C9H6N00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6N02": {
+    "rom": "R4C9H6N02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6P00": {
+    "rom": "R4C9H6P00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6P01": {
+    "rom": "R4C9H6P01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6P02": {
+    "rom": "R4C9H6P02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6P03": {
+    "rom": "R4C9H6P03",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6S00": {
+    "rom": "R4C9H6S00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6S02": {
+    "rom": "R4C9H6S02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6V00": {
+    "rom": "R4C9H6V00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6V02": {
+    "rom": "R4C9H6V02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9H6W02": {
+    "rom": "R4C9H6W02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7100": {
+    "rom": "R4C9J7100",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7102": {
+    "rom": "R4C9J7102",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7500": {
+    "rom": "R4C9J7500",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7501": {
+    "rom": "R4C9J7501",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7502": {
+    "rom": "R4C9J7502",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7503": {
+    "rom": "R4C9J7503",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7504": {
+    "rom": "R4C9J7504",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7505": {
+    "rom": "R4C9J7505",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7900": {
+    "rom": "R4C9J7900",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7902": {
+    "rom": "R4C9J7902",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7A00": {
+    "rom": "R4C9J7A00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7A02": {
+    "rom": "R4C9J7A02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7N00": {
+    "rom": "R4C9J7N00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7N02": {
+    "rom": "R4C9J7N02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7P00": {
+    "rom": "R4C9J7P00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7P01": {
+    "rom": "R4C9J7P01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7P02": {
+    "rom": "R4C9J7P02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7P03": {
+    "rom": "R4C9J7P03",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7S00": {
+    "rom": "R4C9J7S00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7S02": {
+    "rom": "R4C9J7S02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7V00": {
+    "rom": "R4C9J7V00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7V02": {
+    "rom": "R4C9J7V02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9J7W02": {
+    "rom": "R4C9J7W02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8100": {
+    "rom": "R4C9L8100",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8102": {
+    "rom": "R4C9L8102",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8500": {
+    "rom": "R4C9L8500",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8502": {
+    "rom": "R4C9L8502",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8700": {
+    "rom": "R4C9L8700",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8702": {
+    "rom": "R4C9L8702",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8N00": {
+    "rom": "R4C9L8N00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8N02": {
+    "rom": "R4C9L8N02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8P00": {
+    "rom": "R4C9L8P00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8P01": {
+    "rom": "R4C9L8P01",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8P02": {
+    "rom": "R4C9L8P02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8P03": {
+    "rom": "R4C9L8P03",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8P04": {
+    "rom": "R4C9L8P04",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8P05": {
+    "rom": "R4C9L8P05",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8S00": {
+    "rom": "R4C9L8S00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8S02": {
+    "rom": "R4C9L8S02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8V00": {
+    "rom": "R4C9L8V00",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8V02": {
+    "rom": "R4C9L8V02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R4C9L8W02": {
+    "rom": "R4C9L8W02",
+    "mapSwActAddr": "60038006",
+    "burbleActAddr": "60038099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "60038100",
+        "factor": 2
+      }
+    }
+  },
+  "R0C9J9004": {
+    "rom": "R0C9J9004",
+    "mapSwActAddr": "4005E006",
+    "burbleActAddr": "4005E099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "4005E100",
+        "factor": 2
+      }
+    }
+  },
+  "R1C900000": {
+    "rom": "R1C900000",
+    "mapSwActAddr": "4005E006",
+    "burbleActAddr": "4005E099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "4005E100",
+        "factor": 2
+      }
+    }
+  },
+  "R1C900001": {
+    "rom": "R1C900001",
+    "mapSwActAddr": "4005E006",
+    "burbleActAddr": "4005E099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "4005E100",
+        "factor": 2
+      }
+    }
+  },
+  "R1C900002": {
+    "rom": "R1C900002",
+    "mapSwActAddr": "4005E006",
+    "burbleActAddr": "4005E099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "4005E100",
+        "factor": 2
+      }
+    }
+  },
+  "R1C9JD004": {
+    "rom": "R1C9JD004",
+    "mapSwActAddr": "4005E006",
+    "burbleActAddr": "4005E099",
+    "wmbaCmd": "3e",
+    "liveTuneTables": {
+      "KF_DZWMIN_SPORT_SOT": {
+        "address": "4005E100",
+        "factor": 2
+      }
+    }
+  }
+}

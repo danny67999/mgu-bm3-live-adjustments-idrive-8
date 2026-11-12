@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "components": [
+    {
+      "id": "bm3_live_id8",
+      "kind": "app",
+      "path": "store/bm3_live_id8",
+      "build": "unit",
+      "mguHmi": [
+        "ID8"
+      ],
+      "requires": {
+        "mgu-deploy": "0.6.9",
+        "mgu-render": "0.6.12"
+      }
+    }
+  ]
+}

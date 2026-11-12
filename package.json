@@ -1,0 +1,14 @@
+{
+  "name": "bm3-idrive8-community-development",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "test": "node test/controller.test.js && node test/direct_identity.test.js && node test/burble.test.js && node test/valves.test.js && node test/view.test.js && node test/transport.test.js && node test/package.test.js && node test/bridge.test.js && node test/bridge_view.test.js && node test/host_bridge.test.js && node test/sdk_signals.test.js && node test/startup_trace.test.js && node test/dashboard.test.js && node test/renderer_client.test.js && node test/car_data.test.js && node test/raster_vm.test.js && node test/compatibility.test.js",
+    "build": "node tools/build.js",
+    "audit": "python3 tools/audit-release.py"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
